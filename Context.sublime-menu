@@ -1,0 +1,57 @@
+[
+	{
+		"caption": "-"
+	},
+
+	{
+		"caption": "在浏览器中预览",
+		"children":
+                [
+                    {
+                        "id": "previe-chrome",
+                        "caption": "Chrome",
+						"command": "preview_me",
+						"args":
+						{
+							"broswer": "Chrome"
+						}
+                    },
+                    {
+                        "id": "previe-firefox",
+                        "caption": "FireFox",
+                        "command": "preview_me",
+						"args":
+						{
+							"broswer": "FireFox"
+						}
+                    },
+                    {
+                        "id": "previe-safari",
+                        "caption": "Safari",
+                        "command": "preview_me",
+						"args":
+						{
+							"broswer": "Safari"
+						}
+                    },
+                    {
+                        "id": "previe-ie",
+                        "caption": "Internet Explorer",
+                        "command": "preview_me",
+						"args":
+						{
+							"broswer": "Internet Explorer"
+						}
+                    },
+                    {
+                        "id": "previe-opera",
+                        "caption": "Opera",
+                        "command": "preview_me",
+						"args":
+						{
+							"broswer": "Opera"
+						}
+                    }
+                ]
+	}
+]

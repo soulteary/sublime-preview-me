@@ -1,0 +1,5 @@
+[
+	{ "keys": ["super+v", "super+1"], "command": "preview_me", "args":{"broswer": "Chrome"} },
+	{ "keys": ["super+v", "super+2"], "command": "preview_me", "args":{"broswer": "FireFox"} },
+	{ "keys": ["super+v", "super+3"], "command": "preview_me", "args":{"broswer": "Opera"} }
+]

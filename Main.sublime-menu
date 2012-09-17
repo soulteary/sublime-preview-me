@@ -1,0 +1,144 @@
+[
+    {
+        "id": "file",
+        "children":
+        [
+            {
+                "id": "previewme",
+                "caption": "在浏览器中预览",
+                "children":
+                [
+                    {
+                        "id": "previe-chrome",
+                        "caption": "Chrome",
+                        "command": "preview_me",
+                        "args":
+                        {
+                            "broswer": "Chrome"
+                        }
+                    },
+                    {
+                        "id": "previe-firefox",
+                        "caption": "FireFox",
+                        "command": "preview_me",
+                        "args":
+                        {
+                            "broswer": "FireFox"
+                        }
+                    },
+                    {
+                        "id": "previe-safari",
+                        "caption": "Safari",
+                        "command": "preview_me",
+                        "args":
+                        {
+                            "broswer": "Safari"
+                        }
+                    },
+                    {
+                        "id": "previe-ie",
+                        "caption": "Internet Explorer",
+                        "command": "preview_me",
+                        "args":
+                        {
+                            "broswer": "Internet Explorer"
+                        }
+                    },
+                    {
+                        "id": "previe-opera",
+                        "caption": "Opera",
+                        "command": "preview_me",
+                        "args":
+                        {
+                            "broswer": "Opera"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "插件包设置",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Preview Me!(浏览器中预览)",
+                        "children":
+                        [
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/PreviewMe/PreviewMe.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/PreviewMe.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/PreviewMe/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/PreviewMe/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/PreviewMe/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
